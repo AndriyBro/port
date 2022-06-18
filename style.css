@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap');
+
+body {
+ 	font-family: 'Noto Serif', serif;
+ 	background-color: black;
+ 	color: white;
+
+ 		}
+
+nav{
+	border-top: 5px solid white;
+    border-bottom: 5px solid white;
+    padding: 25px 100px 25px 95px;
+    justify-content: space-around;
+    display: flex;
+    font-size: 20px;
+    background-image: linear-gradient(grey,black);
+}
+a{
+	text-decoration: none;
+	color: white;
+}
+.photo img{
+	border: 5px double white;
+	border-radius: 50%;
+	position: absolute;
+	right:40px;
+	top: 80px;
+
+}
+.fb img{
+	border: 5px double white;
+	border-radius: 50%;
+	position: absolute;
+	right:100px;
+	top: 60px;
+}
+.up img{
+	border: 5px double white;
+	border-radius: 50%;
+	position: absolute;
+	right:40px;
+	top: 120px;
+}
+.menu:hover{
+	box-shadow: 3px 3px 5px 0 white;
+}
+.up img:hover, .fb img:hover{
+		box-shadow: 0px 0px 5px 5px white;
+}
+.info{
+	position: absolute;
+	width: 400px;
+	left: 10px;
+}
+.header{
+	position: relative;
+	top: 0px;
+	left: 0px;
+	right: 0px;
+}
+
+.cont{
+	color:white;
+	position: relative;
+	left: 100px;
+	text-align: center;
+}
+
+.color {
+  font-size: 1em;
+  line-height: 1.5em;
+  border: 2px solid;
+  background: linear-gradient(white, white) left no-repeat;
+  background-size: 0% 100%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+  animation: change 20s linear forwards;
+}
+
+@keyframes change {
+  100% {
+    background-size: 100% 100%
+  }
+}
+
+
+
+
+
+
+
+
+
